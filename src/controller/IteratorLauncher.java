@@ -27,6 +27,12 @@ public class IteratorLauncher {
         ClimbingFriendStack cfs = new ClimbingFriendStack();
         FriendViewer viewer3 = new FriendViewer(cfs);
         viewer3.printList();
+
+        // VOORBEELD 4 - SINGLY LINKED LIST
+        System.out.println("\n----- VOORBEELD SINGLY LINKED LIST VAN KLIMVRIENDEN -----\n");
+        ClimbingFriendSinglyLinkedList cfsll = new ClimbingFriendSinglyLinkedList();
+        FriendViewer viewer4 = new FriendViewer(cfsll);
+        viewer4.printList();
     }
 
 }
